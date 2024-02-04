@@ -1,0 +1,206 @@
+body {
+    background-color: #254558;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.page {
+    justify-content: center;
+}
+
+.carousel {
+    display: flex;
+}
+
+.carousel p {
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 20%;
+    font-size: 4rem;
+}
+
+.texting mark {
+    color: #254558;
+}
+
+.carousel img {
+    margin-top: 50px;
+}
+
+.header {
+    background-color: #254558;
+    display: flex;
+    border-radius: 5px;
+    height: 70px;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 116px;
+}
+
+.service-button {
+    background-color: #fecf82;
+    border-color: #fecf82;
+}
+
+.service-button:hover,
+.service-button:focus {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+
+.logo-name {
+    display: flex;
+}
+
+#logo-photo {
+    border-radius: 5px;
+}
+
+.header>.logo-name>a>h1 {
+    color: #FFFFFF;
+}
+
+.header>.logo-name>a {
+    text-decoration: none;
+    margin: 7px;
+}
+
+.telephone-number {
+    margin: 0;
+    font-size: 24px;
+    color: #fecf82;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+}
+
+.links a {
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    margin-top: 0;
+}
+
+.links>li>a>h2 {
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+
+#number-links div {
+    text-align: center;
+}
+
+#number-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-header {
+    text-decoration: none;
+}
+
+.service-header h2 {
+    margin: 0;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #323131;
+}
+
+.page {
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 150px);
+}
+
+.footer {
+    display: flex;
+    background-color: #2b2b3a;
+    width: 80%;
+    height: 230px;
+    margin-bottom: 0;
+    margin-left: 116px;
+    border-radius: 5px;
+}
+
+.footer-name {
+    text-decoration: none;
+}
+
+.footer-name h1 {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.hidden {
+    color: #FFFFFF;
+}
+
+.comments {
+    margin-left: 38%;
+    justify-content: center;
+}
+
+.comments input {
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.comments button {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.comments h2 {
+    color: #FFFFFF;
+}
+
+.hidden {
+    margin-top: 55px;
+    color: #FFFFFF;
+}
+
+.carousel {
+    position: relative;
+}
+
+.catalog {
+    background-color: #254558;
+    height: 20px;
+    border: none;
+    margin-top: 15px;
+}
+
+.catalog h2 {
+    color: aliceblue;
+}
+
+.catalog>h2:hover,
+.catalog>h2:focus {
+    color: #fecf82;
+}
+
+.slide {
+    position: absolute;
+    margin: 0;
+    opacity: 0;
+    inset: 0;
+    transition: opacity ease-in-out 0.4s;
+}
+
+.active-anim {
+    opacity: 1;
+}
+
+.slide img {
+    height: 470px;
+    border-radius: 5px;
+}

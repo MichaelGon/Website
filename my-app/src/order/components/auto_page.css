@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us {
+    width: 100%;
+    padding-left: 70px;
+    padding-top: 50px;
+    background: #254558;
+}
+
+.pic {
+    height: auto;
+    width: 502px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #c3bff7;
+}
+
+.text {
+    color: #000000;
+}
+
+.about {
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 540px;
+}
+
+.text h2 {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.link_service {
+    color: #c3bff7;
+    text-decoration: none;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.data {
+    margin-top: 30px;
+}
+
+.hire {
+    font-size: 18px;
+    background: #c3bff7;
+    color: black;
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.hire:hover {
+    background: white;
+    border: 1px solid #c3bff7;
+}
+
+.content p {
+    color: #000000;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #a096eb !important;
+}

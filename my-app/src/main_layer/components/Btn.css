@@ -1,0 +1,43 @@
+.btn-slide-prev {
+    position: absolute;
+    z-index: 2;
+    font-size: 4em;
+    background: none;
+    border: none;
+    margin-top: 240px;
+    color:white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 88px;
+    left: 30%;
+}
+
+.btn-slide-next {
+    position: absolute;
+    z-index: 2;
+    font-size: 4em;
+    background: none;
+    border: none;
+    margin-top: 240px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 88px;
+    right: 30%;
+}
+
+.btn-slide-next:hover,
+.btn-slide-next:focus {
+    color:#fef582;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn-slide-prev:hover,
+.btn-slide-prev:focus {
+    color: #fef582;
+    background-color: rgba(0, 0, 0, 0.2);
+}

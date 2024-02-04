@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-us {
+    width: 100%;
+    padding: 30px;
+    background: #254558;
+}
+
+.pic {
+    height: auto;
+    width: 502px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #c3bff7;
+}
+
+.text {
+    color: #bfba79;
+}
+
+.about {
+    width: 1130px;
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text {
+    width: 540px;
+}
+
+.text h2 {
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #c3bff7;
+}
+
+.text p {
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.data {
+    margin-top: 30px;
+}
+
+.get_say_form {
+    display: inline-block;
+    padding: 45px 0 25px 30px;
+    background: #254558;
+    position: relative;
+}
+
+.get_say_form h5 {
+    color: #c3bff7;
+    font-size: 26px;
+    margin: 0 0 40px;
+}
+
+.get_say_info_sec span{
+    color: white;
+}
+
+.get_say_info_sec > li {
+  display: grid;
+  grid-template-columns: 40px auto;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+
+.mail {
+    font-size: 30px;
+}
+
+.tel {
+    font-size: 30px;
+}
+
+.skype_sym  > img {
+    width: 30px;
+}
